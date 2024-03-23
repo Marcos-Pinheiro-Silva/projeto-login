@@ -4,7 +4,7 @@
         background-image: linear-gradient(to top,#49a09d,#5f2c82);
     }  
     #login {
-        width: 80vw;
+        width: 90vw;
     }
     #imagem {
         float: left;
@@ -15,26 +15,23 @@
         float: right;
         width: 70%;
     }
+    
 }
 
 @media screen and (min-width:992px){
     body {
         background-image: linear-gradient(to top,#49a09d,#5f2c82);
     }  
-
     #login {
         width: 950px;
     }
-
-    #image {
-            float: left;
-            width: 50%;
-            height: 100%;
-    }
-    #formulario {
+    #imagem {
         float: right;
-        width: 100%;
-
-
+        width: 50%;
+        height: 100%;
+    }
+    #formulario{
+        float: left;
+        width: 50%;
     }
 }

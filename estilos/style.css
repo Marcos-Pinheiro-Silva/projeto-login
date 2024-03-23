@@ -24,8 +24,8 @@ main {
     left: 50%;
     transform: translate(-50%,-50%) ;
     background-color: white;
-    width: 250px;
-    height: 500px;
+    width: 255px;
+    height: 630px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
@@ -46,4 +46,56 @@ main {
     display: block;
     background-color: rgb(255, 255, 255);
     padding: 10px;
+}
+
+#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+#formulario > p {
+    font-size: 1.2em;
+}
+
+input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color:#49a09d ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+input[type=submit]:hover {
+    background-color:#194e4c ;
+    cursor: pointer;
+}
+.botao {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color:#59c9c5 ;
+    color: #194e4c;
+    border: 1px solid black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botao:hover {
+    background-color: white;
+}
+
+.campo{
+    background-color: rgb(35, 6, 73);
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin-top:5px ;
+    margin-bottom:5px ;
 }
